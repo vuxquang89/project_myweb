@@ -1,0 +1,292 @@
+@media only screen and (min-width: 768px) {
+
+    /*======== .header===========*/
+    div.container{
+        padding: 0;
+        width: 100%;
+    }
+
+    /*== .header ==*/
+    div.navbar-header{
+        width: 25%;
+        margin-left: 5px;
+    }
+
+    /*=========#banner=============*/
+    
+    /*================ .content ===============*/
+
+        /*============._row====================*/
+
+        /*============#about-us================*/
+
+        div._row div.col{
+            width: 45%;
+            margin-left: 5px;
+        }
+
+        /*============page About Us=============*/
+        div.main-content{
+            width: 90%;
+        }
+
+        div.content div.main-content div.row div.col{
+            width: 30%;
+        }
+
+        div.main-content .main-about .about{
+            flex-direction: column;
+        }
+        
+        div.main-content .main-about .about .about-left{
+            width: 100%;
+        }
+
+        div.main-content .main-about .about .about-right{
+            width: 100%;
+        }
+
+        /*============#our-business===============*/
+        div#our-business{
+            margin-top: 80px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        div._row div.col-img{
+            flex-direction: column;
+            width: 100%;
+        }
+
+        div._row div.col-img img{
+            width: 100%;
+        }
+
+        div._row div.col-img img:last-child{
+            height: 35%;
+        }
+
+        div._row div.col-icon{
+            margin-top: 65%;
+            margin-left: 6%;
+            width: 100%;
+        }
+
+        div._row div.col-icon > h3{
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        div._row div.col-icon div.row-icon div.icon{
+            width: 50px;
+            height: 50px;
+            
+        }
+
+        div._row div.col-icon div.row-icon > p{
+            padding-right: 25px;
+            margin-left: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+
+        div._row div.col-icon div.row-icon p:last-child{
+            font-size: 1em;
+            font-weight: 300;
+        }
+
+        p#icon-search{    
+            font-size: 1em;
+        }
+            /*===========page Business============*/
+            div.main-content div.row div.col-business{
+                width: 100%;
+            }
+
+            div.main-content div.row div.col-business-left{
+                margin-right: 0;
+            }
+
+            div.content div.main-content-left{
+                width: 45%;
+            }
+
+            div.content div.box div.box-img-content{
+                width: 100%;
+            }
+
+            div.content div.box div > h3{
+                font-weight: bold;
+            }
+
+            div.content div.main-content-right{
+                width: 45%;
+                margin-left: 5%;
+                padding-right: 5%;
+            }
+        /*=============#new================*/
+        div#new{
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 0;
+        }
+
+        div#new div.header-new h4{
+            font-size: 30px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+
+        /*
+        div#new div.row-new div.col-new{
+            width: 30%;
+            margin-right: 5%;
+        }
+        */
+
+        div#new div.row-new div.col-new p > a{
+            font-size: 1em;
+        }
+
+            /*=============page News================*/
+            div.p-new{
+                flex-direction: column;
+            }
+
+            div.main-content div.row-new{
+                width: 100%;
+            }
+
+            div.main-content aside.box-right{
+                width: 100%;
+            }
+
+            div.main-content aside.box-right div.header-box-right h3{
+                font-size: 16px;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box{
+                padding-top: 2%;
+                padding-bottom: 2%;
+                height: auto;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.image{
+                margin-left: 2%;
+                margin-right: 4%;
+                height: 80px;
+                background-size: 100% 180%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.image img{
+                height: 100%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box .tit{
+                margin-right: 2%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box .he{
+                font-size: 15px;
+            }
+
+        /*===============#contact================*/
+
+        div#contact div.col-contact{
+            width: 43%;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact div.form-input{
+            flex-direction: column;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact input{
+            width: 100%;
+            margin-bottom: 15px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            border: #333 solid 1px;
+            border-radius: 5px;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact textarea{
+            font-size: 16px;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact button{
+            display: block;
+            left: 0;
+        }
+
+            /*==============page Contact==============*/
+            div.content .row{
+                flex-direction: column;
+            }
+
+            div.content .main-content .col{
+                width: 100%;
+            }
+
+            div.content .row .col .form-contact .form-group > label{
+                width: 30%;
+            }
+
+            div.content .row .col .form-contact .form-group .form-control{
+                width: 69%;
+            }
+
+        /*================.footer==================*/
+        footer.footer{
+            float: left;
+            margin-top: 20px;
+        }
+
+        footer.footer #content-footer{
+            padding-top: 40px;
+            padding-bottom: 10px;
+        }
+
+        footer.footer .f_row{
+            float: left;
+            flex-wrap: wrap;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        footer.footer div._row div.col-footer{
+            width: 100%;
+        }
+
+        footer.footer div._row div.col-footer ul li{
+            font-size: 1.2em;
+        }
+
+
+        footer.footer div._row div.col-footer form.form-email div.box-email{
+            padding-top: 15px;
+        }
+
+
+
+    /*=========================================*/
+    .he{
+        font-size: 22px;
+    }
+    .ti{
+        font-size: 1.2em;
+    }
+
+    .head-ti{
+        font-size: 1em;
+    }
+
+    .point{
+        width: 35px;
+        height: 3px;
+        margin-right: 10px;
+    }
+    
+}

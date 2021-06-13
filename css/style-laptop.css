@@ -1,0 +1,517 @@
+@media only screen and (min-width: 992px) {
+
+    /*== Container ==*/
+
+
+    /*== .header ==*/
+   
+    div.navbar-header{
+        width: 26%;
+    }
+
+    .collapse{        
+        width: 33%;
+         
+    }
+
+    
+
+    .collapse .nav > li > a{
+        padding: 0 5px;
+        color: #fff;
+        height: 69px;
+        line-height: 69px;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    
+
+
+    .navbar-default .navbar-brand{
+        font-size: 1.75em;
+        font-weight: bold;
+        color:#fff;
+        padding: 0;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .navbar-default .navbar-brand:hover{
+        color: #fff;
+    }
+
+    p#icon-search{    
+        font-size: 0.8em;
+    }
+    /*========#banner==========*/
+
+    
+
+    /*==========.content=========*/
+    div.content{    
+        margin-top: 20px;
+    }
+
+        /*======.row=======*/
+        /*======#about-us=====*/
+
+        div._row div.col{
+            width: 30%;
+        }
+
+        div._row div.col > p{
+            padding-right: 15px;
+        }
+
+        div._row div.col img{
+            width: 100%;
+        }
+
+            /*============page About Us=============*/
+            div.main-content{
+                width: 60%;
+            }
+
+            div.main-content .header-content h3{
+                font-size: 20px;
+            }
+
+            div.main-content .main-about .about{
+                flex-direction: row;
+            }
+            
+            
+            div.main-content .main-about .about .about-left{
+                width: 50%;
+                margin-right: 3%;
+                font-size: 13px;
+            }
+
+            div.main-content .main-about .about .about-right{
+                width: 50%;
+                font-size: 13px;
+            }
+
+            div.main-content .main-about .about-table{
+                font-size: 13px;
+            }
+
+            div.main-content .row .col h4{
+                font-size: 16px;
+            }
+
+            div.main-content .row .col{
+                font-size: 13px;
+                width: 20%;
+            }
+
+        /*=============#our-business==========*/
+        div#our-business{
+            margin-top: 40px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        div._row div.col-img{
+            
+            flex-direction: row;
+            
+        }
+        div._row div.col-img img{
+            width: 50%;
+        }
+
+        div._row div.col-img img:last-child{
+            height: auto;
+        }
+
+        div._row div.col-icon{
+            margin-top: 30px;
+            margin-left: 46.5%;
+            position: absolute;
+            width: 50%;
+        }
+
+        div._row div.col-icon > h3{
+            margin-left: 50px;
+            
+        }
+
+        div._row div.col-icon a{
+            color: #fff;
+        }
+        
+        div._row div.col-icon div.row-icon{
+            float: left;
+        }
+
+        div._row div.col-icon div.row-icon div.icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-top: 10px;
+            position: absolute;        
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        div.img-icon-1{
+            background-image: url(/images/hand_icon.jpg);
+            background-size: 100% 100%;
+        }
+
+        div.img-icon-2{
+            background-image: url(/images/Book_Icon.png);
+            background-size: 90%;        
+        }
+
+        div._row div.col-icon div.row-icon > p{
+            margin-left: 50px;
+            
+        }
+
+        div._row div.col-icon div.row-icon p:last-child{
+            font-size: 0.9em;
+        }
+            /*==============.page Business================*/
+            div.main-content div.row div.col-business{
+                width: 50%;
+            }
+    
+            div.main-content div.row div.col-business-left{
+                margin-right: 3%;
+            }
+
+            div.content div.main-content-left{
+                width: 50%;
+            }
+
+            div.content div.main-content-right{
+                width: 30%;
+                margin-left: 20%;
+                padding-right: 3%;
+            }
+
+            div.main-content{
+                font-size: 13px;
+            }
+
+            div.content div.box{
+                font-size: 13px;
+            }
+
+            div.content div.box div > h3{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            
+            div.content div.box div.box-img-content{
+                width: 30%;
+            }
+
+            div.content div.main-content-right div.box-img-content{
+                width: 50%;
+            }
+            
+        /*==============#new==============*/
+
+        div#new{
+            width: 60.3%;
+            margin-top: 20px;
+            margin-left: 20%;
+        }
+        /*
+        .row-new{
+            
+            display: flex;
+            flex-direction: column;/*cot - tu tren xuong duoi 
+            align-items: center;/*căn giữa trong      
+            
+        }
+        */
+        /*
+        #new .header-new h3{
+            font-size: 0.6em;
+            margin-bottom: 10px;
+        }
+        */
+        /*
+        div#new div.header-new h4{
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        div#new div.row-new{
+            
+            overflow: hidden;
+        }
+        */
+        /*
+        div#new div.row-new div.col-new:nth-last-child(2){} /*chọn phần tử là phần tử con thứ n, 
+                                                                của một kiểu được chỉ định, của cha của nó, 
+                                                                tính từ phần tử cuối cùng*/
+
+        /*
+        div#new div.row-new div.col-new:last-child{
+            float: right;
+            margin-right: 0;
+        }
+
+        div#new div.row-new div.col-new > img{
+            width: 100%;
+        }
+
+        div#new div.row-new div.col-new > p{        
+            margin: 10px 0 5px 0;
+            padding: 0 5px;
+        }
+
+        div#new div.row-new div.col-new p > a{
+            font-size: 0.6em;
+            color: #333;
+        }
+
+        div#new div.row-new div.col-new p{
+            margin-top: 10px;
+        }
+
+        div#new div.row-new div.col-new p a i{
+            padding-left: 5px;
+        }
+        */
+        div#new div.row-new div.col-new p > a{
+            font-size: 0.7em;
+        }
+
+            /*================page News=====================*/
+            div.p-new{
+                flex-direction: row;
+            }
+
+            div.main-content div.row-new{
+                width: 75%;
+
+            }
+
+            div.main-content aside.box-right{
+                width: 25%;
+            }
+
+            div.main-content aside.box-right div.header-box-right h3{
+                font-size: 12px;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box{
+                height: 75px;
+                padding-top: 4%;
+                padding-bottom: 4%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.image{
+                height: auto;
+                margin-right: 8%;
+                margin-left: 5%;
+                background-size: 150% 100%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.image img{
+                height: auto;
+                
+            }
+
+            div.main-content div.row-new div.col-new p > a{
+                font-size: 0.7em;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box .he{
+                font-size: 10px;
+            }
+
+        /*===========#contact===================*/
+        /*
+        div#contact{
+            margin: 100px 0 40px 0;
+        }
+        */
+        div#contact div.col-contact{
+            width: 29%;
+            
+        }
+        /*
+        div#contact div.col-contact > p{
+            margin: 0 0 5px 0;
+        }
+
+        div#contact div.col-contact-left{
+            margin-right: 25px;
+        }
+        */
+        /*
+        #contact .col-contact-left .form-group{
+            position: relative;
+        }
+        */
+        div#contact div.col-contact-left div.form-group form.form-contact div.form-input{
+            flex-direction: row;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact input{
+            width: 30%;
+            height: 25px;
+            border: 1px solid #c4c2c2;
+            font-size: 12px;
+            border-radius: 5%;
+            margin-bottom: 0;
+        }
+        
+        div#contact div.col-contact-left div.form-group form.form-contact textarea{
+            margin-top: 5px;
+            font-size: 12px;
+        }
+        
+        
+
+        div#contact div.col-contact-left div.form-group form.form-contact button{
+            position: relative;
+            left: 55%;            
+            margin: auto;
+            background-color: #ffb301;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            padding: 13px 30px;
+        }
+        
+        div#contact div.col-contact-right img{
+            width: 100%;
+        }
+
+            /*=============page Contact================*/
+            div.content .row{
+                flex-direction: row;
+            }
+
+            div.content .main-content .col{
+                font-size: 13px;
+                width: 50%;
+            }
+
+            div.content .row .col .form-contact .form-group > label{
+                width: 39%;
+            }
+
+            div.content .row .col .form-contact .form-group .form-control{
+                font-size: 13px;
+                width: 59%;
+            }
+        
+        /*================= .footer =================*/
+
+        footer.footer{
+            float: none;
+            margin-top: 0;
+        }
+
+        footer.footer .f_row{
+            float: none;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        footer.footer div._row div.col-footer{
+            width: 15%;
+        }
+
+        footer.footer div._row div.col-footer ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer.footer div._row div.col-footer ul li{
+            font-size: 0.9em;
+            padding-bottom: 2px;
+        }
+
+        footer.footer div._row div.col-footer ul li a{
+            color: #fff;
+            padding-left: 5px;
+        }
+        
+        footer.footer div._row div.col-footer form.form-email div.box-email{        
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom: #fff solid 1px;
+            padding-bottom: 5px;
+        }
+        
+        footer.footer div._row div.col-footer form.form-email div.box-email input[type="text"]{
+            font-size: 12px;
+            margin-left: 0;
+        }
+
+        footer.footer div._row div.col-footer form.form-email div.box-email button{
+            padding: 2px 2px;
+            font-size: 12px;
+        }
+
+        /*
+        footer.footer hr{
+            margin: 0;
+            width: 100%;
+        }
+        footer.footer div.footer-bottom{
+            text-align: center;
+            padding: 5px 5px 0 5px;
+        }
+
+        footer.footer div.footer-bottom p{
+            padding-top: 5px;
+        }
+
+        footer.footer div.footer-bottom{
+            width: 100%;
+            margin: 0 auto;
+            float: left;
+        }
+        */
+
+
+    /*=============================*/
+    /* style thẻ h3 */
+    .head-ti{
+        font-size: 0.9em;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .he{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .ti{
+        font-size: 0.9em;
+    }
+
+    .head-point{
+        display: flex;
+        align-items: center;
+    }
+
+    .point{
+        width: 20px;
+        height: 2px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    .point-blue{
+        background-color: #006bd1;
+    }
+
+    .point-white{
+        background-color: #fff;
+    }
+}

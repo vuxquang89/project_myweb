@@ -1,0 +1,345 @@
+@media only screen and (max-width: 767px) {
+    /* Cho điện thoại di động: */
+
+    /*======== .header===========*/
+    div.container{
+        padding: 0;
+    }
+
+    nav.navbar-default{ 
+        display: inline-block;
+        background-color: #fff;
+        border-color: #fff;
+        width: 100%;
+    }
+
+    nav.navbar-default .navbar-header{
+        width: auto;
+    }
+
+    nav.navbar-default .navbar-header .navbar-toggle{
+        border-color: #fff;
+        margin-left: 2%;
+    }
+
+    nav.navbar-default .navbar-header .navbar-toggle:hover{
+        background-color: #fff;
+    }
+
+    nav.navbar-default .navbar-toggle .icon-bar {
+        color: #333;
+        width: 27px;
+        margin: 7px;
+    }
+
+    .navbar-default .navbar-brand{
+        color:#006bd1;
+        margin-left: 4%;
+    }
+    
+    .navbar-default .navbar-brand:hover{
+        color: #006bd1;
+    }
+
+    .navbar-toggle{
+        float: left;
+    }
+
+    .collapse{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        padding-right: 0;
+    }
+
+    .collapse .nav{
+        float: left;
+        width: 100%;
+    }
+
+    .navbar-nav{
+        margin: 0 -15px;
+    }
+
+    .collapse .nav > li > a{
+        padding-left: 15px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #006bd1;
+        border-bottom: #fff solid 1px;
+    }
+
+    .collapse .nav > li > a:hover{
+        background: olive;
+    }
+
+
+    .collapse .nav > li > a.active{
+        background: olive;
+    }
+
+    nav.navbar-default p#icon-search{
+        position: absolute;
+        right: 7%;
+        top: 32%;
+        font-size: 1.35em;
+    }
+
+    nav.navbar-default p#icon-search > a{
+        color: #333;
+    }
+
+    /*================ .banner ================*/
+
+
+    /*================ .content ===============*/
+    div.content{
+        margin-top: 40px;
+    }
+
+        /*============._row====================*/
+        div._row{
+            margin-left: 20px;
+            margin-right: 20px;
+            flex-wrap: wrap;
+            float: left;
+        }
+
+        div._row div.col{
+            width: 100%;
+        }
+
+            /*=============page About Us==========*/
+            div.main-content{
+                width: 95%;
+            }
+
+            div.main-content .main-about .about{
+                flex-direction: column;
+            }
+
+            div.main-content .main-about .about-table .row{
+                flex-direction: column;
+            }
+
+            div.main-content .main-about .about-table .row .col-1{
+                width: 100%;
+            }
+
+            div.main-content .main-about .about-table .row .col-2{
+                width: 100%;
+            }
+
+            div.main-content div.row div.col{
+                width: 40%;
+            }
+
+        /*============#our-business===============*/
+        div#our-business{
+            margin-top: 80px;
+        }
+
+        div._row div.col-img{
+            flex-direction: column;
+        }
+
+        div._row div.col-img img{
+            width: 100%;
+        }
+
+        div._row div.col-img img:last-child{
+            height: 400px;
+        }
+
+        div._row div.col-icon{
+            margin-top: 65%;
+            margin-left: 25px;
+            width: 100%;
+        }
+
+        div._row div.col-icon > h3{
+            margin-left: 60px;
+            margin-bottom: 20px;
+        }
+
+        div._row div.col-icon div.row-icon div.icon{
+            width: 50px;
+            height: 50px;
+            margin-top: 40px;
+        }
+
+        div._row div.col-icon div.row-icon > p{
+            padding-right: 25px;
+            margin-left: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        div._row div.col-icon div.row-icon p:last-child{
+            font-size: 1em;
+            font-weight: 300;
+        }
+
+            /*==============page Business================*/
+            div.content div.main-content-left{
+                width: 47%;
+            }
+
+            div.content div.box div.box-img-content{
+                width: 100%;
+            }
+
+            div.content div.box div > h3{
+                font-weight: bold;
+            }
+
+            div.content div.main-content-right{
+                width: 45%;
+                margin-left: 5%;
+                padding-right: 5%;
+            }
+
+        /*=============#new================*/
+        
+        div#new{
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 0;
+            float: left;
+        }
+
+        #new .header-new{
+            padding-left: 20px;
+        }
+
+        #new .row-new{
+            float: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        div#new div.row-new div.col-new{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        div#new div.row-new div.col-new p > a{
+            font-size: 1em;
+        }
+
+            /*===============page News===============*/
+            div.p-new{
+                flex-direction: column;
+                margin-bottom: 40px;
+            }
+
+            div.main-content div.row-new div.col-new{
+                width: 100%;
+                margin-right: 0;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box{
+                padding-top: 2%;
+                padding-bottom: 2%;
+                height: auto;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.image{
+                margin-left: 2%;
+                margin-right: 10%;
+                height: 85px;
+                width: 30%;
+                background-size: 100% 100%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.tit{
+                margin-right: 3%;
+            }
+
+            div.main-content aside.box-right div.main-box-right div.box div.tit .he{
+                font-size: 16px;
+            }
+
+
+        /*===============#contact================*/
+        div#contact div.col-contact-left{
+            margin-right: 0;
+        }
+
+        div#contact div.col-contact{
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact div.form-input{
+            flex-direction: column;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact input{
+            width: 100%;
+            margin-bottom: 15px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: #333 solid 1px;
+        }
+
+        div#contact div.col-contact-left div.form-group form.form-contact button{
+            display: block;
+            left: 0;
+        }
+
+        div#contact div.col-contact-right{
+            margin-top: 20px;
+        }
+
+            /*==============page Contact================*/
+            div.content .row{
+                flex-direction: column;
+            }
+
+            div.content .main-content .col{
+                width: 100%;
+            }
+
+            div.content .row .col .form-contact .form-group .fa-si{
+                display: none;
+            }
+
+        /*================.footer==================*/
+        footer.footer{
+            float: left;
+            margin-top: 0px;
+        }
+
+        footer.footer #content-footer{
+            padding-top: 40px;
+            padding-bottom: 10px;
+        }
+
+        footer.footer div._row div.col-footer{
+            width: 100%;
+        }
+
+        footer.footer div._row div.col-footer ul li{
+            font-size: 1em;
+        }
+
+
+        /*=========================================*/
+        .he{
+            font-size: 20px;
+        }
+        .ti{
+            font-size: 1em;
+        }
+
+        .head-ti{
+            font-size: 1em;
+        }
+}
